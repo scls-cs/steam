@@ -102,6 +102,7 @@
 <li class="toctree-l1"><a class="reference internal" href="char.html">字符编码</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">图像编码</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#id2">位图</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">矢量图</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="sound.html">声音编码</a></li>
@@ -113,11 +114,6 @@
 <li class="toctree-l1"><a class="reference internal" href="../software/language.html">计算机语言</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../software/definition.html">计算机软件定义</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../software/classfication.html">计算机软件分类</a></li>
-</ul>
-<p class="caption"><span class="caption-text">Libraries</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference external" href="https://cs50.readthedocs.io/projects/compare50/">compare50</a></li>
-<li class="toctree-l1"><a class="reference external" href="https://cs50.readthedocs.io/projects/lib50/">lib50</a></li>
 </ul>
 
             
@@ -187,14 +183,19 @@
 <h1>图像编码<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="id2">
 <h2>位图<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
-<p>位图又称为点阵图，是由像素组成。像素的不同排列和染色组成不同的图像。</p>
+<p>位图又称为点阵图，是由像素组成。像素的不同排列和染色组成不同的图像。日常见到的大多数图像都是位图，格式包括BMP、GIF、TIF、JPG、PNG等。</p>
 <p>像素：构成图像的最小单位</p>
 <p>分辨率：图像中像素的数量</p>
 <a class="reference internal image-reference" href="../_images/teapot.png"><img alt="../_images/teapot.png" src="../_images/teapot.png" style="width: 325.0px; height: 262.0px;" /></a>
 <p>该图像的分辨率：16x12=192</p>
 <p>像素的编码：用二进制来编码像素的颜色</p>
 <a class="reference internal image-reference" href="../_images/color_code.png"><img alt="../_images/color_code.png" src="../_images/color_code.png" style="width: 514.0px; height: 235.0px;" /></a>
-<p>位深度：像素编码的二进制位数</p>
+<p>位深度：像素编码的二进制位数。位深度决定了图像所包含的最大颜色数。</p>
+<p>位深度为N，最多可以表示2^N种不同的颜色。</p>
+</div>
+<div class="section" id="id3">
+<h2>矢量图<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p>矢量图使用直线和曲线等属性来描述图形，是通过数学公式获得的。矢量图的优点是放大不会失真，缺点是难以表现色彩层次丰富的图像。</p>
 </div>
 </div>
 
