@@ -43,9 +43,6 @@
    :maxdepth: 1
    :name: libraries
 
-   compare50 <https://cs50.readthedocs.io/projects/compare50/>
-   lib50 <https://cs50.readthedocs.io/projects/lib50/>
-
 .. toctree::
    :caption: Style Guides
    :hidden:
