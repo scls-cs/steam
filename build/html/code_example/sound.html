@@ -101,10 +101,23 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="char.html">字符编码</a></li>
 <li class="toctree-l1"><a class="reference internal" href="image.html">图像编码</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">声音编码</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">声音编码</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">两种信号</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">模拟信号</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">数字信号</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">声音编码</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id6">采样</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">量化</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">声音存储空间</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="compress.html">信息压缩</a></li>
 </ul>
-<p class="caption"><span class="caption-text">计算机软件</span></p>
+<p class="caption"><span class="caption-text">计算机软件（期中不考）</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../software/instruction.html">计算机指令</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../software/language.html">计算机语言</a></li>
@@ -177,10 +190,73 @@
             
   <div class="section" id="id1">
 <h1>声音编码<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li>模拟信号和数字信号</li>
-<li>声音编码</li>
-</ul>
+<div class="section" id="id2">
+<h2>两种信号<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id3">
+<h3>模拟信号<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>模拟信号是指连续变化的信号，比如温度，声音，气压等。</p>
+</div>
+<div class="section" id="id4">
+<h3>数字信号<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>数字信号是指取值离散，不连续的信号。</p>
+</div>
+</div>
+<div class="section" id="id5">
+<h2>声音编码<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p>声音编码就是将模拟的声音信号转化为数字信号的过程，其中主要环节是采样和量化。</p>
+<div class="section" id="id6">
+<h3>采样<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<p>采样就是每隔一定时间采集模拟声音信号的样本。每秒钟采集的样本数称为采样频率。</p>
+</div>
+<div class="section" id="id7">
+<h3>量化<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<p>量化是将采集到的模拟量值序列转换为二进制数序列的过程，这个二进制数序列就是对声音的编码。</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">声音的采样频率越高，量化位数越大，声音的还原度越高。</p>
+</div>
+</div>
+<div class="section" id="id8">
+<h3>声音存储空间<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>采样频率f，量化位数x，双声道，录制t秒的声音需要多大空间进行存储？</p>
+<p class="last">解析：存储的声音是由采样点组成，采样点个数为f*t。每个采样点由x位编码，所以存储声音需要f*t*x*2(位)的存储空间。</p>
+</div>
+<div class="highlight-text"><div class="highlight"><pre><span></span>问题1: 对电话音频信号进行数字化，若采样频率为9.4kHz，每个样本的值用16位二进制数量化，且为单声道录制，
+则每分钟的电话录音需要占用__________字节。
+A. 9400*16
+B. 9.4*1024*16*60/8
+C. 9400*16*60/8
+D. 以上答案均不对
+
+答案：C
+</pre></div>
+</div>
+<div class="highlight-text"><div class="highlight"><pre><span></span>问题2: 对录音机输出的音频信号进行数字化，若采样频率为47kHz，每个样本的值用16位二进制数量化，且为立体声双声道录制，
+则每秒录音需要占用__________字节。
+A. 47000*16/8
+B. 47000*16*2/8
+C. 47*1024*16*2/8
+D. 以上答案均不对
+
+答案：B
+</pre></div>
+</div>
+<div class="highlight-text"><div class="highlight"><pre><span></span>问题3: 对录音机输出的音频信号进行数字化，量化范围是0-1023，采样频率为47kHz，且为立体声双声道录制，
+则每秒录音需要占用__________字节。
+A. 47000*1024*2/8
+B. 47000*10*2/8
+C. 47*1024*10*2/8
+D. 以上答案均不对
+
+答案：B
+
+解析：0-1023的量化范围说明量化位数为10。
+</pre></div>
+</div>
+</div>
+</div>
 </div>
 
 
