@@ -113,7 +113,7 @@
 <li class="toctree-l1"><a class="reference internal" href="sound.html">声音编码</a></li>
 <li class="toctree-l1"><a class="reference internal" href="compress.html">信息压缩</a></li>
 </ul>
-<p class="caption"><span class="caption-text">计算机软件</span></p>
+<p class="caption"><span class="caption-text">计算机软件（期中不考）</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../software/instruction.html">计算机指令</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../software/language.html">计算机语言</a></li>
@@ -203,31 +203,6 @@
 <li>数字 &lt; 大写字母 &lt; 小写字母</li>
 <li>小写字母比对应的大写字母的ASCII值大32</li>
 </ul>
-<p>例：已知A的ASCII码值为65，则b的ASCII码值是多少？</p>
-<p>答案：字符a的ASCII码值是65+32=97，所以字符b的ASCII码值是98.</p>
-<p>例：对字符’a’, ‘B’, ‘z’, ‘6’进行升序排列，排列结果是？</p>
-<p>答案：‘6’, ‘B’, ‘a’, ‘z’</p>
-<p>例：在”today.txt”文件中输入以下内容并保存，其中字符‘0’在计算机中的存储形式是：</p>
-<a class="reference internal image-reference" href="../_images/ascii_0.png"><img alt="../_images/ascii_0.png" src="../_images/ascii_0.png" style="width: 607.0px; height: 201.0px;" /></a>
-<ul class="simple">
-<li><ol class="first upperalpha">
-<li>00110000</li>
-</ol>
-</li>
-<li><ol class="first upperalpha" start="2">
-<li>110000</li>
-</ol>
-</li>
-<li><ol class="first upperalpha" start="3">
-<li>0000000</li>
-</ol>
-</li>
-<li><ol class="first upperalpha" start="4">
-<li>0</li>
-</ol>
-</li>
-</ul>
-<p>答案：A（字符在计算机中用1个字节存储）</p>
 </div>
 <div class="section" id="id2">
 <h2>汉字编码<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
@@ -251,9 +226,34 @@
 <ul class="simple">
 <li>负责显示、打印输出汉字</li>
 </ul>
-<p>例：如图所示，汉字“国”的字形码用16x16的黑白点阵表示，请问在计算机中需要多少字节进行存储？</p>
+<div class="highlight-text"><div class="highlight"><pre><span></span>问题1：已知A的ASCII码值为65，则b的ASCII码值是多少？
+
+答案：字符a的ASCII码值是65+32=97，所以字符b的ASCII码值是98.
+</pre></div>
+</div>
+<div class="highlight-text"><div class="highlight"><pre><span></span>问题2：对字符&#39;a&#39;, &#39;B&#39;, &#39;z&#39;, &#39;6&#39;进行升序排列，排列结果是？
+
+答案：&#39;6&#39;, &#39;B&#39;, &#39;a&#39;, &#39;z&#39;
+</pre></div>
+</div>
+<div class="highlight-text"><div class="highlight"><pre><span></span>问题3：在&quot;today.txt&quot;文件中输入以下内容并保存，其中字符‘0’在计算机中的存储形式是：
+
+
+A. 00110000
+B. 110000
+C. 0000000
+D. 0
+
+答案：A（字符在计算机中用1个字节存储）
+</pre></div>
+</div>
+<a class="reference internal image-reference" href="../_images/ascii_0.png"><img alt="../_images/ascii_0.png" src="../_images/ascii_0.png" style="width: 607.0px; height: 201.0px;" /></a>
+<div class="highlight-text"><div class="highlight"><pre><span></span>问题4：如图所示，汉字“国”的字形码用16x16的黑白点阵表示，请问在计算机中需要多少字节进行存储？
+
+答案：由于用黑白点阵，所以每个点只需要1位二进制来编码。16x16的点阵共需要16x16x1 = 256位进行编码，故所需256/8 = 32字节存储。
+</pre></div>
+</div>
 <a class="reference internal image-reference" href="../_images/chinese_char.png"><img alt="../_images/chinese_char.png" src="../_images/chinese_char.png" style="width: 171.0px; height: 176.0px;" /></a>
-<p>答案：由于用黑白点阵，所以每个点只需要1位二进制来编码。16x16的点阵共需要16x16x1 = 256位进行编码，故所需256/8 = 32字节存储。</p>
 </div>
 </div>
 </div>

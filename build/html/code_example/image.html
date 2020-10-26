@@ -101,14 +101,19 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="char.html">字符编码</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">图像编码</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#id2">位图</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id3">矢量图</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">位图</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">像素</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">分辨率</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">像素编码</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">矢量图</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="sound.html">声音编码</a></li>
 <li class="toctree-l1"><a class="reference internal" href="compress.html">信息压缩</a></li>
 </ul>
-<p class="caption"><span class="caption-text">计算机软件</span></p>
+<p class="caption"><span class="caption-text">计算机软件（期中不考）</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../software/instruction.html">计算机指令</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../software/language.html">计算机语言</a></li>
@@ -184,18 +189,55 @@
 <div class="section" id="id2">
 <h2>位图<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 <p>位图又称为点阵图，是由像素组成。像素的不同排列和染色组成不同的图像。日常见到的大多数图像都是位图，格式包括BMP、GIF、TIF、JPG、PNG等。</p>
-<p>像素：构成图像的最小单位</p>
-<p>分辨率：图像中像素的数量</p>
-<a class="reference internal image-reference" href="../_images/teapot.png"><img alt="../_images/teapot.png" src="../_images/teapot.png" style="width: 325.0px; height: 262.0px;" /></a>
-<p>该图像的分辨率：16x12=192</p>
-<p>像素的编码：用二进制来编码像素的颜色</p>
-<a class="reference internal image-reference" href="../_images/color_code.png"><img alt="../_images/color_code.png" src="../_images/color_code.png" style="width: 514.0px; height: 235.0px;" /></a>
-<p>位深度：像素编码的二进制位数。位深度决定了图像所包含的最大颜色数。</p>
-<p>位深度为N，最多可以表示2^N种不同的颜色。</p>
-</div>
 <div class="section" id="id3">
-<h2>矢量图<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
-<p>矢量图使用直线和曲线等属性来描述图形，是通过数学公式获得的。矢量图的优点是放大不会失真，缺点是难以表现色彩层次丰富的图像。</p>
+<h3>像素<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>像素是构成图像的最小单位。</p>
+</div>
+<div class="section" id="id4">
+<h3>分辨率<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>图像中像素的数量。</p>
+<a class="reference internal image-reference" href="../_images/teapot.png"><img alt="../_images/teapot.png" src="../_images/teapot.png" style="width: 325.0px; height: 262.0px;" /></a>
+<p>上图茶杯的图像横向方向有16个像素，纵向方向有12个像素。该图像的分辨率：16x12=192</p>
+</div>
+<div class="section" id="id5">
+<h3>像素编码<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p>像素编码是指用二进制来表示像素的颜色。</p>
+<a class="reference internal image-reference" href="../_images/color_code.png"><img alt="../_images/color_code.png" src="../_images/color_code.png" style="width: 514.0px; height: 235.0px;" /></a>
+<ul class="simple">
+<li>位深度：像素编码的二进制位数。位深度决定了图像所包含的最大颜色数。</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">像素为深度为N，则像素颜色最多可以有2^N种不同的可能性。</p>
+</div>
+</div>
+</div>
+<div class="section" id="id6">
+<h2>矢量图<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<p>矢量图使用直线和曲线等属性来描述图形，是通过数学公式获得的。矢量图经常用来做为商标Logo图像使用。</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">位图优点是色彩丰富，缺点是位图放大之后会模糊失真。矢量图优点是无论放大、缩小或者旋转等都不会失真，缺点是难以表现色彩层次丰富的逼真图像效果。</p>
+</div>
+<div class="highlight-text"><div class="highlight"><pre><span></span>问题1: 16色位图，每个像素需要几位二进制来表示？
+
+答案：4
+</pre></div>
+</div>
+<div class="highlight-text"><div class="highlight"><pre><span></span>问题2: 一个分辨率为16*16的16位位图需要占用多少字节？
+
+解答：分辨率16*16表示有256个像素点，每个像素点用16位编码，所以总共需要用256*16（位）进行编码。
+
+所需字节：256*16/8 = 512字节
+</pre></div>
+</div>
+<div class="highlight-text"><div class="highlight"><pre><span></span>问题3: 一个分辨率为16*16的16色位图需要占用多少字节？
+
+解答：分辨率16*16表示有256个像素点，16色位图说明每个像素点用4位编码，所以总共需要用256*4（位）进行编码。
+
+所需字节：256*4/8 = 128字节
+</pre></div>
+</div>
 </div>
 </div>
 
