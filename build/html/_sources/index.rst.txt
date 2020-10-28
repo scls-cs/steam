@@ -22,6 +22,15 @@
    code_example/sound
    code_example/compress
 
+.. toctree::
+   :caption: 计算机硬件（期中不考）
+   :hidden:
+   :maxdepth: 3
+
+   hardware/organization
+   hardware/principle
+   hardware/configuration
+
 
 .. toctree::
    :caption: 计算机软件（期中不考）
