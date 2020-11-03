@@ -102,7 +102,18 @@
 <li class="toctree-l1"><a class="reference internal" href="char.html">字符编码</a></li>
 <li class="toctree-l1"><a class="reference internal" href="image.html">图像编码</a></li>
 <li class="toctree-l1"><a class="reference internal" href="sound.html">声音编码</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">信息压缩</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">信息压缩</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">信息压缩举例</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">图片压缩</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">有损压缩和无损压缩</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id5">无损压缩</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id6">有损压缩</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 <p class="caption"><span class="caption-text">计算机硬件（期中不考）</span></p>
 <ul>
@@ -183,12 +194,40 @@
             
   <div class="section" id="id1">
 <h1>信息压缩<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id2">
+<h2>信息压缩举例<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id3">
+<h3>图片压缩<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>如图所示为分辨率为16x16，16色的位图。对其压缩的方法为：以“行”为单位，用“相同颜色连续出现的次数 + 颜色名称”来表示。当使用五位二进制表示颜色连续出现的次数，每种颜色用四位二进制表示，则第二行和第三行经过压缩之后占多少个二进制位？</p>
+<a class="reference internal image-reference" href="../_images/ascii.jpg"><img alt="../_images/ascii.jpg" src="../_images/ascii.jpg" style="width: 410.5px; height: 450.5px;" /></a>
+<p>解析：</p>
+<p>第二行可以被描述成：“1灰14蓝1灰”，总共需要（5+4）*3 = 21位存储</p>
+<p>第三行可以被描述成：“1灰1蓝6黑6白1蓝1灰”，总共需要（5+4*6 = 42位存储</p>
+</div>
+</div>
+<div class="section" id="id4">
+<h2>有损压缩和无损压缩<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id5">
+<h3>无损压缩<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>信息压缩目的</li>
-<li>信息压缩举例</li>
-<li>信息压缩方法</li>
-<li>有损压缩和无损压缩</li>
+<li>无损压缩：对压缩后的数据进行还原，还原后的数据和原来的数据完全相同。</li>
+<li>常用方法：WinZip, WinRAR</li>
 </ul>
+</div>
+<div class="section" id="id6">
+<h3>有损压缩<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>有损压缩：压缩过程中会损失一定的信息，压缩后的数据无法还原成原始数据。</li>
+<li>常见压缩格式：JPG、MP3、MPEG</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>只能适用于无损压缩的格式：TXT, DOC, XLS, PPT, VB, JAVA…</p>
+<p>可以采用有损压缩的格式：BMP, WAV, AVI…</p>
+<p class="last">只有多媒体文件（图片、音频、视频）才能进行有损压缩！</p>
+</div>
+</div>
+</div>
 </div>
 
 
