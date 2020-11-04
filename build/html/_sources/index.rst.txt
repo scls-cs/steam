@@ -1,6 +1,10 @@
 本网站用于宋庆龄学校中国部高中的考试复习。
 =================================
 
+* 如果你还没有复习完毕，你可以通过点击左边的章节目录来进行学习。
+
+* 如果你已经复习完毕，你可以通过期中模拟试题来巩固复习成果。
+
 .. title:: 计算机概论
 
 .. toctree::
@@ -21,6 +25,13 @@
    code_example/image
    code_example/sound
    code_example/compress
+
+.. toctree::
+   :caption: 期中模拟
+   :hidden:
+   :maxdepth: 3
+
+   midterm/paper
 
 .. toctree::
    :caption: 计算机硬件（期中不考）
