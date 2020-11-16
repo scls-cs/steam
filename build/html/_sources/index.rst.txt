@@ -34,17 +34,17 @@
    midterm/paper
 
 .. toctree::
-   :caption: 计算机硬件（期中不考）
+   :caption: 计算机硬件
    :hidden:
    :maxdepth: 3
 
    hardware/organization
-   hardware/principle
    hardware/configuration
+   hardware/homework
 
 
 .. toctree::
-   :caption: 计算机软件（期中不考）
+   :caption: 计算机软件
    :hidden:
    :maxdepth: 3
 
