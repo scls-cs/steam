@@ -58,6 +58,8 @@
    :hidden:
    :maxdepth: 3
 
+
+   network/hw-1
    network/introduction
    network/connection
    network/protocol
