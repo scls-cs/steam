@@ -59,9 +59,9 @@
    :maxdepth: 3
 
    network/overview
+   network/HTTP
    network/hw-1
    network/introduction
-   network/connection
    network/protocol
 
 
