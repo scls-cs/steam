@@ -63,7 +63,7 @@
    network/hw-1
    network/TCPIP
    network/introduction
-   network/protocol
+   network/hw-2
 
 
 .. toctree::
