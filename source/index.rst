@@ -44,7 +44,7 @@
 
 
 .. toctree::
-   :caption: 计算机软件
+   :caption: 计算机软件(本学期不考)
    :hidden:
    :maxdepth: 3
 
