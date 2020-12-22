@@ -44,7 +44,7 @@
 
 
 .. toctree::
-   :caption: 计算机软件
+   :caption: 计算机软件(本学期不考)
    :hidden:
    :maxdepth: 3
 
@@ -62,8 +62,10 @@
    network/HTTP
    network/hw-1
    network/TCPIP
-   network/introduction
    network/hw-2
+   network/introduction
+   network/hw-3
+
 
 
 .. toctree::
