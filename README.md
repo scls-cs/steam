@@ -1,1 +1,1 @@
-# cs-into
+# for computer science course at SCLS
