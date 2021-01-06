@@ -66,6 +66,13 @@
    network/introduction
    network/hw-3
 
+.. toctree::
+   :caption: 期末复习
+   :hidden:
+   :maxdepth: 3
+
+   final/material
+
 
 
 .. toctree::
