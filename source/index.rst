@@ -82,6 +82,13 @@
 
    final/material
 
+.. toctree::
+   :caption: 算法与程序设计
+   :hidden:
+   :maxdepth: 3
+
+   algo/algo
+
 
 
 .. toctree::
