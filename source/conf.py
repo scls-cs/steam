@@ -51,9 +51,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = '宋庆龄学校信息技术'
-copyright = '2020, Derek'
-author = 'Derek'
+project = '上海宋庆龄学校中国部高中STEAM周成果展示'
+copyright = 'SCLS'
+author = 'SCLS'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
