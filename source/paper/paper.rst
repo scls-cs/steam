@@ -9,7 +9,7 @@
 
     .. image:: ../_static/丁承天封面.PNG
            :width: 240px
-           :target: ../_static/丁承天论文.docx
+           :target: ../_static/丁承天论文.pdf
 
     ---
 
@@ -17,7 +17,7 @@
 
     .. image:: ../_static/倪嘉辰封面.png
            :width: 240px
-           :target: ../_static/倪家辰论文.docx
+           :target: ../_static/倪家辰论文.pdf
 
     ---
 
@@ -25,7 +25,7 @@
 
     .. image:: ../_static/刘中翰封面.jpg
            :width: 240px
-           :target: ../_static/刘中翰论文.docx
+           :target: ../_static/刘中翰论文.pdf
 
     ---
 
@@ -33,7 +33,7 @@
 
     .. image:: ../_static/周辰翰.jpeg
            :width: 240px
-           :target: ../_static/周辰翰陈楷焜论文.docx
+           :target: ../_static/周辰翰陈楷焜论文.pdf
 
     ---
 
@@ -41,7 +41,7 @@
 
     .. image:: ../_static/吴予纶封面.png
            :width: 240px
-           :target: ../_static/吴予纶论文.docx
+           :target: ../_static/吴予纶论文.pdf
 
     ---
 
@@ -49,7 +49,7 @@
 
     .. image:: ../_static/孙从珂封面.jpg
            :width: 240px
-           :target: ../_static/孙从珂论文.docx
+           :target: ../_static/孙从珂论文.pdf
 
     ---
 
@@ -57,14 +57,14 @@
 
     .. image:: ../_static/宋修远封面.jpg
            :width: 240px
-           :target: ../_static/宋修远论文.docx
+           :target: ../_static/宋修远论文.pdf
     ---
 
     我国新环境保护法的不足
 
     .. image:: ../_static/宋文德封面.jpg
            :width: 240px
-           :target: ../_static/宋文德论文.docx
+           :target: ../_static/宋文德论文.pdf
 
     ---
 
@@ -72,7 +72,7 @@
 
     .. image:: ../_static/张天怡封面.jpg
            :width: 240px
-           :target: ../_static/张天怡论文.docx
+           :target: ../_static/张天怡论文.pdf
 
     ---
 
@@ -88,7 +88,7 @@
 
     .. image:: ../_static/张潇文封面.png
            :width: 240px
-           :target: ../_static/张潇文论文.docx
+           :target: ../_static/张潇文论文.pdf
 
     ---
 
@@ -96,7 +96,7 @@
 
     .. image:: ../_static/徐一菲封面.jpg
            :width: 240px
-           :target: ../_static/徐一菲论文.docx
+           :target: ../_static/徐一菲论文.pdf
 
     ---
 
@@ -120,7 +120,7 @@
 
     .. image:: ../_static/朱鸿轩封面.png
            :width: 240px
-           :target: ../_static/朱鸿轩论文.docx
+           :target: ../_static/朱鸿轩论文.pdf
 
     ---
 
@@ -136,7 +136,7 @@
 
     .. image:: ../_static/林芳婷.jpeg
            :width: 240px
-           :target: ../_static/林芳婷论文.docx
+           :target: ../_static/林芳婷论文.pdf
 
     ---
 
@@ -144,7 +144,7 @@
 
     .. image:: ../_static/樊泓萱封面.png
            :width: 240px
-           :target: ../_static/樊泓萱论文.docx
+           :target: ../_static/樊泓萱论文.pdf
 
     ---
 
@@ -152,7 +152,7 @@
 
     .. image:: ../_static/沈芫榕封面.jpg
            :width: 240px
-           :target: ../_static/沈芫榕论文.docx
+           :target: ../_static/沈芫榕论文.pdf
 
     ---
 
@@ -160,7 +160,7 @@
 
     .. image:: ../_static/王唯愿封面.jpg
            :width: 240px
-           :target: ../_static/王唯愿论文.docx
+           :target: ../_static/王唯愿论文.pdf
 
     ---
 
@@ -168,7 +168,7 @@
 
     .. image:: ../_static/王心怡封面.jpg
            :width: 240px
-           :target: ../_static/王心怡论文.docx
+           :target: ../_static/王心怡论文.pdf
 
     ---
 
@@ -192,7 +192,7 @@
 
     .. image:: ../_static/董若宣封面.jpg
            :width: 240px
-           :target: ../_static/董若宣论文.docx
+           :target: ../_static/董若宣论文.pdf
 
     ---
 
@@ -200,7 +200,7 @@
 
     .. image:: ../_static/蔡浩弈封面.png
            :width: 240px
-           :target: ../_static/蔡浩弈论文.docx
+           :target: ../_static/蔡浩弈论文.pdf
 
     ---
 
@@ -208,7 +208,7 @@
 
     .. image:: ../_static/谢奇睿封面.jpg
            :width: 240px
-           :target: ../_static/谢奇睿论文.docx
+           :target: ../_static/谢奇睿论文.pdf
 
     ---
 
@@ -216,7 +216,7 @@
 
     .. image:: ../_static/谢宗原.jpeg
            :width: 240px
-           :target: ../_static/谢宗原论文.docx
+           :target: ../_static/谢宗原论文.pdf
 
     ---
 
@@ -232,7 +232,7 @@
 
     .. image:: ../_static/赵音奇封面.PNG
            :width: 240px
-           :target: ../_static/赵音奇论文.docx
+           :target: ../_static/赵音奇论文.pdf
 
 
     ---
@@ -241,7 +241,7 @@
 
     .. image:: ../_static/邓芯楼封面.jpg
            :width: 240px
-           :target: ../_static/邓芯楼论文.docx
+           :target: ../_static/邓芯楼论文.pdf
 
     ---
 
@@ -249,4 +249,4 @@
 
     .. image:: ../_static/金子涵封面.WEBP
            :width: 240px
-           :target: ../_static/金子涵论文.docx
+           :target: ../_static/金子涵论文.pdf
