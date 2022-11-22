@@ -4,7 +4,7 @@
 .. title:: STEAM科技周
 
 .. toctree::
-   :caption: 论文展示
+   :caption: 论文
    :hidden:
    :maxdepth: 10
 
