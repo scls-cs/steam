@@ -21,11 +21,13 @@
 
     ---
 
-    睡眠周期（刘中翰）
+    长期不规律作息对身体的影响（宋修远）
 
-    .. image:: ../_static/刘中翰封面.jpg
+    .. image:: ../_static/宋修远封面.jpg
            :width: 240px
-           :target: ../_static/刘中翰论文.pdf
+           :target: ../_static/宋修远论文.pdf
+
+
 
     ---
 
@@ -61,11 +63,12 @@
 
     ---
 
-    长期不规律作息对身体的影响（宋修远）
+    睡眠周期（刘中翰）
 
-    .. image:: ../_static/宋修远封面.jpg
+    .. image:: ../_static/刘中翰封面.jpg
            :width: 240px
-           :target: ../_static/宋修远论文.pdf
+           :target: ../_static/刘中翰论文.pdf
+
     ---
 
     我国新环境保护法的不足（宋文德）
@@ -90,13 +93,6 @@
            :width: 240px
            :target: ../_static/宋昕妤论文.pdf
 
-    ---
-
-    猫是液体吗？（方俊清、郑好、张奕瑶）
-
-    .. image:: ../_static/张奕瑶封面.jpg
-           :width: 240px
-           :target: ../_static/张奕瑶论文.pdf
 
     ---
 
@@ -105,6 +101,15 @@
     .. image:: ../_static/张潇文封面.png
            :width: 240px
            :target: ../_static/张潇文论文.pdf
+
+    ---
+
+    猫是液体吗？（方俊清、郑好、张奕瑶）
+
+    .. image:: ../_static/张奕瑶封面.jpg
+           :width: 240px
+           :target: ../_static/张奕瑶论文.pdf
+           :align: center
 
     ---
 
@@ -132,13 +137,13 @@
 
     ---
 
-    认同自己为抑郁症患者的个案们眼中的被建构的抑郁症（朱鸿轩）
+    箱形水母的毒素（王唯愿）
 
-    .. image:: ../_static/朱鸿轩封面.png
+    .. image:: ../_static/王唯愿封面.jpg
            :width: 240px
-           :target: ../_static/朱鸿轩论文.pdf
-
+           :target: ../_static/王唯愿论文.pdf
     ---
+
 
     The need for bee（李郁洲）
 
@@ -172,11 +177,11 @@
 
     ---
 
-    箱形水母的毒素（王唯愿）
+    认同自己为抑郁症患者的个案们眼中的被建构的抑郁症（朱鸿轩）
 
-    .. image:: ../_static/王唯愿封面.jpg
+    .. image:: ../_static/朱鸿轩封面.png
            :width: 240px
-           :target: ../_static/王唯愿论文.pdf
+           :target: ../_static/朱鸿轩论文.pdf
 
     ---
 
@@ -220,12 +225,11 @@
 
     ---
 
-    对猫的扶正反射的研究（谢奇睿）
+    微塑料对生物的影响
 
-    .. image:: ../_static/谢奇睿封面.jpg
+    .. image:: ../_static/金子涵封面.WEBP
            :width: 240px
-           :target: ../_static/谢奇睿论文.pdf
-
+           :target: ../_static/金子涵论文.pdf
     ---
 
     對各細胞器的結果特徵及與其作用的關係的探究（谢宗原）
@@ -268,9 +272,10 @@
            :target: ../_static/郁立婷论文.pdf
 
     ---
+    对猫的扶正反射的研究（谢奇睿）
 
-    微塑料对生物的影响
-
-    .. image:: ../_static/金子涵封面.WEBP
+    .. image:: ../_static/谢奇睿封面.jpg
            :width: 240px
-           :target: ../_static/金子涵论文.pdf
+           :target: ../_static/谢奇睿论文.pdf
+
+    ---
