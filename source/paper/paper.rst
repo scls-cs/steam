@@ -124,8 +124,7 @@
 
     ---
 
-    Carbon dioxide and Global warming（Zekai Yu, Haoyi Cai, Zihao Yuan, Qixin Zhu
-Step）
+    Carbon dioxide and Global warming（Zekai Yu, Haoyi Cai, Zihao Yuan, Qixin Zhu)
 
     .. image:: ../_static/朱启新.jpeg
            :width: 240px
