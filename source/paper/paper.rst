@@ -265,7 +265,6 @@
            :width: 240px
            :target: ../_static/谢奇睿论文.pdf
 
-    ---
 
     ---
 
