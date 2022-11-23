@@ -35,7 +35,7 @@
 
     .. image:: ../_static/周辰翰.jpeg
            :width: 240px
-           :target: ../_static/周辰翰陈楷焜论文.pdf
+           :target: ../_static/周辰翰论文.pdf
 
     ---
 
