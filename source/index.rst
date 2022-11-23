@@ -10,6 +10,12 @@
 
    paper/paper
 
+.. toctree::
+   :caption: 创意手工
+   :hidden:
+   :maxdepth: 10
+
+   photo/photo
 
 
 
