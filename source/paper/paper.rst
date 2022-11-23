@@ -45,7 +45,7 @@
            :target: ../_static/吴予纶论文.pdf
 
     ---
-    The need for bee（李郁洲）
+    The need for bee（李郁洲，李玥，司徒雷曚，张瑞姚）
 
     .. image:: ../_static/李郁洲封面.jpg
            :width: 240px
