@@ -21,12 +21,11 @@
 
     ---
 
-    长期不规律作息对身体的影响（宋修远）
+    Carbon dioxide and Global warming（Zekai Yu, Haoyi Cai, Zihao Yuan, Qixin Zhu)
 
-    .. image:: ../_static/宋修远封面.jpg
+    .. image:: ../_static/朱启新.jpeg
            :width: 240px
-           :target: ../_static/宋修远论文.pdf
-
+           :target: ../_static/朱启新论文.pdf
 
 
     ---
@@ -46,28 +45,12 @@
            :target: ../_static/吴予纶论文.pdf
 
     ---
+    The need for bee（李郁洲）
 
-    探究不同运动补剂的作用和特点（孙从珂）
-
-    .. image:: ../_static/孙从珂封面.jpg
+    .. image:: ../_static/李郁洲封面.jpg
            :width: 240px
-           :target: ../_static/孙从珂论文.pdf
+           :target: ../_static/李郁洲论文.pdf
 
-    ---
-
-    遗传病（genetic diseases）探究（奚豪君）
-
-    .. image:: ../_static/奚豪君封面.png
-           :width: 240px
-           :target: ../_static/奚豪君论文.pdf
-
-    ---
-
-    睡眠周期（刘中翰）
-
-    .. image:: ../_static/刘中翰封面.jpg
-           :width: 240px
-           :target: ../_static/刘中翰论文.pdf
 
     ---
 
@@ -129,11 +112,15 @@
 
     ---
 
-    Carbon dioxide and Global warming（Zekai Yu, Haoyi Cai, Zihao Yuan, Qixin Zhu)
 
-    .. image:: ../_static/朱启新.jpeg
+
+    长期不规律作息对身体的影响（宋修远）
+
+    .. image:: ../_static/宋修远封面.jpg
            :width: 240px
-           :target: ../_static/朱启新论文.pdf
+           :target: ../_static/宋修远论文.pdf
+
+
 
     ---
 
@@ -142,14 +129,14 @@
     .. image:: ../_static/王唯愿封面.jpg
            :width: 240px
            :target: ../_static/王唯愿论文.pdf
+
     ---
 
+    探究不同运动补剂的作用和特点（孙从珂）
 
-    The need for bee（李郁洲）
-
-    .. image:: ../_static/李郁洲封面.jpg
+    .. image:: ../_static/孙从珂封面.jpg
            :width: 240px
-           :target: ../_static/李郁洲论文.pdf
+           :target: ../_static/孙从珂论文.pdf
 
     ---
 
@@ -279,3 +266,19 @@
            :target: ../_static/谢奇睿论文.pdf
 
     ---
+
+    ---
+
+    遗传病（genetic diseases）探究（奚豪君）
+
+    .. image:: ../_static/奚豪君封面.png
+           :width: 240px
+           :target: ../_static/奚豪君论文.pdf
+
+    ---
+
+    睡眠周期（刘中翰）
+
+    .. image:: ../_static/刘中翰封面.jpg
+           :width: 240px
+           :target: ../_static/刘中翰论文.pdf
